@@ -79,7 +79,7 @@ nav {
     box-shadow: 1px 5px 10px .5px rgba(128, 128, 128, 0.301);
 }
 
-.collection-title{
+.collection-title {
     display: flex;
     justify-content: center;
     font-size: 28px;
@@ -112,4 +112,95 @@ nav {
 .rating p {
     display: inline;
     margin-left: 8px;
+}
+
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 160px;
+    margin-top: 0;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.features {
+    display: flex;
+    margin: 150px 165px 100px;
+}
+
+.featured-info {
+    margin-left: 100px;
+}
+
+.featured-info h1 {
+    color: #0A0826;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.featured-info p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+}
+
+.featured_button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 160px;
+    padding: 10px 20px;
+
+}
+
+
+.featured_button i {
+    margin-left: 8px;
+}
+
+footer {
+    background-color: #0A0826;
+    color: #FFFFFF;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h2 {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.footer h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #D9DBE1;
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.fa-instagram,
+.fa-dribbble,
+.fa-twitter,
+.fa-youtube {
+    padding: 7px;
+    background-color: #333344;
+    border-radius: 50%;
 }
