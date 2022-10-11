@@ -34,6 +34,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 100px 120px;
+    gap: 130px;
 }
 
 .split {
@@ -64,6 +65,20 @@ nav {
     display: flex;
     justify-content: center;
     align-self: center;
+}
+
+hr{
+    margin: 60px 120px;
+    border: 1px solid #AAAAAA;
+    
+}
+
+/* sponsors */
+.sponsors{
+margin: 60px 165px;
+display: flex;
+justify-content: space-between;
+padding: 0px 60px;
 }
 
 .collections {
@@ -165,6 +180,8 @@ nav {
 .featured_button i {
     margin-left: 8px;
 }
+
+/* footer styles */
 
 footer {
     background-color: #0A0826;
