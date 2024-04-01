@@ -198,9 +198,11 @@ hr {
     background-color: #E02C6D;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
     width: 160px;
     padding: 10px 20px;
+    border-radius: 40px;
+    text-align: start;
 
 }
 
